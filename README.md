@@ -5,13 +5,17 @@ A helm chart for a SFTP server.
 
 ## Introduction
 
-The SFTP server is based on [atmoz/sftp](https://github.com/atmoz/sftp).
+The SFTP server is based on the helm chart created by [openvnf/sftp-server](https://github.com/openvnf/sftp-server) and the docer image developed [atmoz/sftp](https://github.com/atmoz/sftp).
 
 The chart supports:
 - persistent SSH server host keys
 - provision of authorized SSH keys
 - persistentVolumeClaim for data
 - [kube-vxlan-controller](https://github.com/openvnf/kube-vxlan-controller)
+
+## Helmchart Repository 
+
+This fork has been created to add this sftp-server helm chart to a helm repository, so the sftp helm chart can be added as dependency into other helm charts such as bitnami/wordpress, bitnami/moodle, etc. 
 
 
 ## Prerequisites
