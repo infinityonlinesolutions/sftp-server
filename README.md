@@ -5,7 +5,7 @@ A helm chart for a SFTP server.
 
 ## Introduction
 
-The SFTP server is based on the helm chart created by [openvnf/sftp-server](https://github.com/openvnf/sftp-server) and the docker image developed [atmoz/sftp](https://github.com/atmoz/sftp).
+The SFTP server chart is based on the helm chart created by [openvnf/sftp-server](https://github.com/openvnf/sftp-server) and the docker image developed [atmoz/sftp](https://github.com/atmoz/sftp).
 
 The chart supports:
 - persistent SSH server host keys
